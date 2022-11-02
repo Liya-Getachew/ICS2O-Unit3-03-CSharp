@@ -20,7 +20,7 @@ class Program
         Console.Write("radius of sphere (cm): ");
         radius = Convert.ToDouble(Console.ReadLine());
 
-        double volume = (4.0/3.0) * Math.PI * Math.Pow(radius, 3);
+        double volume = (4.0 / 3.0) * Math.PI * Math.Pow(radius, 3);
 
         Console.WriteLine("");
         Console.WriteLine("Volume = " + volume.ToString("0.00") + " cm³.");
